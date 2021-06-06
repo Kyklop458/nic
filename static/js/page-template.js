@@ -30,7 +30,7 @@ var Header = function (_React$Component) {
         React.createElement(
           "span",
           { id: "header_text" },
-          "\u0411\u043B\u043E\u0433."
+          "\u0411\u043B\u043E\u0433 \u043A\u0440\u0443\u0442\u043E\u0433\u043E \u0447\u0435\u043B\u0430"
         ),
         React.createElement(Log, null)
       );
@@ -130,7 +130,7 @@ var Footer = function (_React$Component3) {
         React.createElement(
           "span",
           { id: "footer_text" },
-          "\u042D\u0442\u043E\u0442 \u0441\u0430\u0439\u0442 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u0430\u043B \u0447\u0435\u043B\u043E\u0432\u0435\u043A, \u043A\u043E\u0442\u043E\u0440\u043E\u0433\u043E \u043D\u0438\u043A\u0442\u043E \u043D\u0435 \u0437\u043D\u0430\u0435\u0442."
+          "\u042D\u0442\u043E\u0442 \u0441\u0430\u0439\u0442 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u0430\u043B \u0412\u043B\u0430\u0434\u0438\u043C\u0438\u0440"
         )
       );
     }
