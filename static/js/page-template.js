@@ -8,7 +8,7 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var url = "https://web-blog-nik.herokuapp.com/auth_cl_serv/";
+var url = "http://localhost:8080/auth_cl_serv/";
 
 var Header = function (_React$Component) {
   _inherits(Header, _React$Component);
@@ -30,7 +30,7 @@ var Header = function (_React$Component) {
         React.createElement(
           "span",
           { id: "header_text" },
-          "\u0411\u043B\u043E\u0433 \u043A\u0440\u0443\u0442\u043E\u0433\u043E \u0447\u0435\u043B\u0430"
+          "\u0411\u043B\u043E\u0433."
         ),
         React.createElement(Log, null)
       );
@@ -130,7 +130,7 @@ var Footer = function (_React$Component3) {
         React.createElement(
           "span",
           { id: "footer_text" },
-          "\u042D\u0442\u043E\u0442 \u0441\u0430\u0439\u0442 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u0430\u043B \u0412\u043B\u0430\u0434\u0438\u043C\u0438\u0440"
+          "\u042D\u0442\u043E\u0442 \u0441\u0430\u0439\u0442 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u0430\u043B \u0447\u0435\u043B\u043E\u0432\u0435\u043A, \u043A\u043E\u0442\u043E\u0440\u043E\u0433\u043E \u043D\u0438\u043A\u0442\u043E \u043D\u0435 \u0437\u043D\u0430\u0435\u0442."
         )
       );
     }
